@@ -1,13 +1,73 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav{
+  font-family: 'Poppins', sans-serif;
+}
+
+.home{
+  background: url(./assets/bgHome1.jpg);
+  width: 100vw;
+  height: 90vh;
+}
+
+.bgImg{
+  height: 90vh;
+}
+
+.textWeather{
+  color: rgba(34, 33, 91, 0.6);
+}
+
+.infoCom{
+  font-family: 'Roboto', sans-serif;
+}
+
+.profile{
+  font-family: 'Roboto', sans-serif;
+}
+
+.blogInfo{
+  font-family: 'Roboto', sans-serif;
+}
+
+.profileInfo{
+  font-family: 'Roboto', sans-serif;
+}
+
+.calender{
+  font-family: 'Roboto', sans-serif;
+}
+
+.statusBar{
+  font-family: 'Roboto', sans-serif;
+}
+
+.searchBar{
+  font-family: 'Roboto', sans-serif;
+}
+
+.skils{
+  font-family: 'Roboto', sans-serif;
+}
+
+.notif{
+  font-family: 'Roboto', sans-serif;
+}
+
+.manageTask{
+  font-family: 'Roboto', sans-serif;
+}
+
+body,html{
+  font-family: 'Ubuntu', sans-serif !important; 
+  overflow-x: hidden;
 }
